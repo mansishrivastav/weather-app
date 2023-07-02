@@ -1,0 +1,15 @@
+.weather .top{
+    width:100%;
+    margin-top: 1rem;
+    
+}
+.weather .description{
+    position: relative;
+    right: -90%;
+    transform-origin: 0 0;
+    transform: rotate(268deg);  
+      
+}
+.bold{
+    font-weight: 600;
+}

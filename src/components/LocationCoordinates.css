@@ -1,0 +1,15 @@
+.weather .mid {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem;
+}
+
+.mid div {
+  display: flex;
+  gap: 50rem;
+}
+
+.mid p {
+  margin: 0;
+  font-size: 1.5rem;
+}

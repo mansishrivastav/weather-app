@@ -1,0 +1,19 @@
+.weather .input {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 3rem;
+}
+.weather .input input {
+  padding: 0.5rem;
+  border: 1px solid rgba(245, 245, 245, 0.526);
+  background-color: rgba(0, 0, 0, 0.379);
+  border-radius: 25px;
+  width: 20%;
+  font-size: 1rem;
+  color: azure;
+text-align: center;
+}
+::placeholder {
+  color: rgba(245, 245, 245, 0.867);
+}
