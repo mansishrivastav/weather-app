@@ -12,7 +12,7 @@ const WeatherDetails = () => {
     if (event.key === "Enter") {
       console.log(process.env)
       fetch(
-        `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&appid=${process.env.REACT_APP_API_ID}`
+        `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&appid=a9d84f0fcb9f013eb203b0dd060ae19e`
 
       )
         .then((response) => response.json())
